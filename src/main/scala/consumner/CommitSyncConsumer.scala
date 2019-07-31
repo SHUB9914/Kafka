@@ -19,7 +19,7 @@ class CommitSyncConsumer[K, V](keySerializer: String, valueSerializer: String) e
         a.asScala.map(record => record.value()).toList.foreach{record =>
           // Process data here
         }
-        consumer.commitAsync()
+        consumer.commitSync()
       }
     }
     val consumer = createConsumer

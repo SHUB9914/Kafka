@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7647160-6c1f-4e89-a2c7-97bc75ef7132" name="Default Changelist" comment="" />
+    <list default="true" id="c7647160-6c1f-4e89-a2c7-97bc75ef7132" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/scala/consumner/CommitSyncConsumer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/consumner/CommitSyncConsumer.scala" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -89,12 +91,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="sbt" value="11" />
-          <entry key="scala" value="3948" />
+          <entry key="scala" value="3951" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="3948" />
+          <entry key="Scala" value="3951" />
           <entry key="sbt" value="11" />
         </counts>
       </usages-collector>
@@ -102,11 +104,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/consumner/CommitSyncConsumer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="399">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding>
                 <element signature="e#19#44#0" expanded="true" />
               </folding>
@@ -187,7 +189,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/consumner/RebalaceConsumer.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -227,6 +229,9 @@
       <find>commitAsync</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -241,7 +246,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/producer/ProducerApi.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/consumner/ConsumerApi.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/consumner/AutoCommitConsumer.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/consumner/CommitSyncConsumer.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/consumner/CombiningSyncAndAsync.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/consumner/ConsumerRebalaceListener.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/consumner/ConsumerrebalanceListener.scala" />
@@ -249,6 +253,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/consumner/ConsumerFactory.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/consumner/RebalanceListener.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/consumner/RebalaceConsumer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/consumner/CommitSyncConsumer.scala" />
       </list>
     </option>
   </component>
@@ -264,6 +269,7 @@
     <option name="width" value="1853" />
     <option name="height" value="1055" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -322,7 +328,7 @@
     <property name="SearchEverywhereHistoryKey" value="BU&#9;FILE&#9;file:///home/shubhamagarwal/Documents/Software/work/DeepCotex/Kafka_POC/build.sbt&#10;build.s&#9;FILE&#9;file:///home/shubhamagarwal/Documents/Software/work/DeepCotex/Kafka_POC/build.sbt" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564578113313" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564578938549" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -476,15 +482,16 @@
       <workItem from="1563814531270" duration="1246000" />
       <workItem from="1563944993767" duration="902000" />
       <workItem from="1564463941852" duration="1969000" />
-      <workItem from="1564563944107" duration="11211000" />
+      <workItem from="1564563944107" duration="11835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57175000" />
+    <option name="totallyTimeSpent" value="57799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29662424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -693,16 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/consumner/CommitSyncConsumer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="e#19#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/consumner/CombiningSyncAndAsync.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -783,6 +780,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="40" selection-end-column="3" />
+          <folding>
+            <element signature="e#19#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/consumner/CommitSyncConsumer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding>
             <element signature="e#19#44#0" expanded="true" />
           </folding>

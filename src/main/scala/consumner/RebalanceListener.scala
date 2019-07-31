@@ -10,7 +10,7 @@ import scala.collection.JavaConverters._
 
 class RebalanceListener[K,V](consumer : KafkaConsumer[K,V]) extends ConsumerRebalanceListener {
 
-  var currentOffset : Map[TopicPartition,OffsetAndMetadata] = Map()
+  var currentOffset : Map[TopicPartition,OffsetAndMetadata] = Map() // Use Actor for var
 
   val log = LoggerFactory.getLogger(this.getClass)
 
