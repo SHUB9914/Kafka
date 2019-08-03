@@ -1,4 +1,4 @@
-package offset_example.consumer
+package offset.example.consumer
 
 import java.time.Duration
 

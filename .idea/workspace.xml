@@ -409,7 +409,7 @@
     <property name="SearchEverywhereHistoryKey" value="bui&#9;FILE&#9;file:///home/shubhamagarwal/Documents/Software/work/DeepCotex/Kafka_POC/build.sbt&#10;con&#9;FILE&#9;file:///home/shubhamagarwal/Documents/Software/work/DeepCotex/Kafka_POC/src/main/scala/consumner/RebalaceConsumer.scala&#10;buil&#9;FILE&#9;file:///home/shubhamagarwal/Documents/Software/work/DeepCotex/Kafka_POC/build.sbt&#10;BU&#9;FILE&#9;file:///home/shubhamagarwal/Documents/Software/work/DeepCotex/Kafka_POC/build.sbt&#10;build.s&#9;FILE&#9;file:///home/shubhamagarwal/Documents/Software/work/DeepCotex/Kafka_POC/build.sbt" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564833598880" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564833604607" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -432,7 +432,7 @@
   </component>
   <component name="RunManager" selected="Application.Test">
     <configuration name="ProducerApi" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="producer.ProducerApi" />
+      <option name="MAIN_CLASS_NAME" value="offset.example.producer.ProducerApi" />
       <module name="Kafka_POC" />
       <extension name="coverage">
         <pattern>

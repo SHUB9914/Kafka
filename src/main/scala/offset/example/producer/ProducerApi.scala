@@ -1,7 +1,8 @@
-package producer
+package offset.example.producer
 
 import org.apache.kafka.clients.producer.{Callback, ProducerRecord, RecordMetadata}
 import org.slf4j.LoggerFactory
+import producer.ProducerFactory
 
 import scala.concurrent.Promise
 
