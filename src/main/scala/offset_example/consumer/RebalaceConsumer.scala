@@ -1,9 +1,11 @@
-package consumner
+package offset_example.consumer
 
 import java.time.Duration
 
+import consumner.ConsumerFactory
 import org.apache.kafka.clients.consumer.KafkaConsumer
 import org.slf4j.LoggerFactory
+
 import scala.collection.JavaConverters._
 
 
@@ -26,10 +28,11 @@ class RebalanceConsumer[K, V](keySerializer: String, valueSerializer: String) ex
       try {
         while (true) {
           val a = consumer.poll(Duration.ofMillis(100))
-          a.asScala.map(record => record.value()).toList.foreach { record =>
+          a.asScala.toList.foreach { record =>
             // Process data here
+            rebalanceListener.addOffset(record.topic(),record.partition(),record.offset())
           }
-          rebalanceListener.commit // Commit before next call
+          consumer.commitAsync()
         }
       } catch {
         case e: Exception => log.error("Unexpected error", e)
@@ -39,6 +42,14 @@ class RebalanceConsumer[K, V](keySerializer: String, valueSerializer: String) ex
       }
     }
   }
+}
 
+object RebalaceConsumerTest extends App {
 
+  val keyDeserializer: String = "org.apache.kafka.common.serialization.StringDeserializer"
+  val valueDeserializer: String = "org.apache.kafka.common.serialization.StringDeserializer"
+
+  val con = new RebalanceConsumer[String , String](keyDeserializer , valueDeserializer)
+
+  con.consume(List("test"))
 }

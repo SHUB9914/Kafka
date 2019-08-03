@@ -1,7 +1,8 @@
-package consumner
+package offset_example.consumer
 
 import java.time.Duration
 
+import consumner.ConsumerFactory
 import org.apache.kafka.clients.consumer.KafkaConsumer
 import org.slf4j.LoggerFactory
 

@@ -1,1 +1,1 @@
-["producer.ProducerApi"]
+["consumner.RebalaceConsumerTest","consumner.TestConsumer","producer.TestProducer"]

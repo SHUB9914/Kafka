@@ -17,7 +17,6 @@ trait ProducerFactory[K, V] {
    props.put("linger.ms","5")
    props.put("key.serializer", k)
    props.put("value.serializer", v)
-
    props
  }
 

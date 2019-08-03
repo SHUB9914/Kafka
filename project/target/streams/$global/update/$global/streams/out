@@ -14719,6 +14719,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#zinc-apiinfo_2.12;1.2.5!zinc-apiinfo_2.12.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#zinc-ivy-integration_2.12;1.2.5!zinc-ivy-integration_2.12.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#zinc_2.12;1.2.5!zinc_2.12.jar
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#util-control_2.12;1.2.4!util-control_2.12.jar
 [debug] 	[NOT REQUIRED] com.swoval#apple-file-events;1.3.2!apple-file-events.jar
 [debug] 	[NOT REQUIRED] net.java.dev.jna#jna;4.5.0!jna.jar
@@ -14746,6 +14747,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.5!scala-parser-combinators_2.12.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-sbt#zinc-core_2.12;1.2.5!zinc-core_2.12.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#zinc-persist_2.12;1.2.5!zinc-persist_2.12.jar
+[debug] 	[NOT REQUIRED] com.trueaccord.scalapb#scalapb-runtime_2.12;0.6.0!scalapb-runtime_2.12.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbinary_2.12;0.5.0!sbinary_2.12.jar
 [debug] 	[NOT REQUIRED] com.trueaccord.lenses#lenses_2.12;0.4.12!lenses_2.12.jar
 [debug] 	[NOT REQUIRED] com.lihaoyi#fastparse_2.12;0.4.2!fastparse_2.12.jar
@@ -14760,9 +14762,7 @@
 [debug] 	[NOT REQUIRED] com.github.cb372#scalacache-core_2.12;0.20.0!scalacache-core_2.12.jar
 [debug] 	[NOT REQUIRED] com.github.ben-manes.caffeine#caffeine;2.5.6!caffeine.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832!ivy.jar
-[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar
-[debug] 	[NOT REQUIRED] com.trueaccord.scalapb#scalapb-runtime_2.12;0.6.0!scalapb-runtime_2.12.jar
-[debug] :: resolution report :: resolve 915ms :: artifacts dl 28ms
+[debug] :: resolution report :: resolve 1647ms :: artifacts dl 70ms
 [debug] 	report for default#kafka_poc-build;0.1.0-SNAPSHOT compile produced in /home/shubhamagarwal/Documents/Software/work/DeepCotex/Kafka_POC/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-kafka_poc-build-compile.xml
 [debug] 	report for default#kafka_poc-build;0.1.0-SNAPSHOT runtime produced in /home/shubhamagarwal/Documents/Software/work/DeepCotex/Kafka_POC/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-kafka_poc-build-runtime.xml
 [debug] 	report for default#kafka_poc-build;0.1.0-SNAPSHOT test produced in /home/shubhamagarwal/Documents/Software/work/DeepCotex/Kafka_POC/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-kafka_poc-build-test.xml
@@ -14774,5 +14774,5 @@
 [debug] 	report for default#kafka_poc-build;0.1.0-SNAPSHOT plugin produced in /home/shubhamagarwal/Documents/Software/work/DeepCotex/Kafka_POC/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-kafka_poc-build-plugin.xml
 [debug] 	report for default#kafka_poc-build;0.1.0-SNAPSHOT pom produced in /home/shubhamagarwal/Documents/Software/work/DeepCotex/Kafka_POC/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-kafka_poc-build-pom.xml
 [debug] 	report for default#kafka_poc-build;0.1.0-SNAPSHOT scala-tool produced in /home/shubhamagarwal/Documents/Software/work/DeepCotex/Kafka_POC/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-kafka_poc-build-scala-tool.xml
-[debug] 	resolve done (915ms resolve - 28ms download)
+[debug] 	resolve done (1647ms resolve - 70ms download)
 [info] Done updating.

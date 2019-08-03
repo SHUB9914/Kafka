@@ -1,3 +1,4 @@
+
 name := "Kafka_POC"
 
 version := "0.1"
@@ -9,6 +10,7 @@ val logback = "ch.qos.logback" % "logback-classic" % "1.2.3"
 
 libraryDependencies ++= Seq(
   "org.apache.kafka" % "kafka-clients" % "2.1.1",
+  "org.typelevel" %%   "cats-core" % "1.5.0",
   slf4j,
   logback
 )
