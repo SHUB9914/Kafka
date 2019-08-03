@@ -21,7 +21,7 @@ class RebalanceListener[K,V](consumer : KafkaConsumer[K,V]) extends ConsumerReba
   override def onPartitionsRevoked(partitions: util.Collection[TopicPartition]): Unit = {
     log.info("Following partition revoked : - " + partitions.asScala.mkString(","))
     log.info("Committing the offset : -"+ currentOffset)
-    consumer.commitSync()
+    consumer.commitSync(currentOffset)
     currentOffset = currentOffset.empty
   }
 
