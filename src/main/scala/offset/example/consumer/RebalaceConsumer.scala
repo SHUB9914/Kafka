@@ -30,7 +30,7 @@ class RebalanceConsumer[K, V](keySerializer: String, valueSerializer: String) ex
           val a = consumer.poll(Duration.ofMillis(100))
           a.asScala.toList.foreach { record =>
             // Process data here
-            rebalanceListener.addOffset(record.topic(),record.partition(),record.offset())
+            rebalanceListener.addOffset(record.topic(),record.partition(),record.offset() + 1)
           }
           consumer.commitAsync()
         }
